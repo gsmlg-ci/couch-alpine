@@ -40,8 +40,7 @@ FROM alpine:3.20
 
 LABEL maintainer="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL document="https://github.com/apache/couchdb-docker/blob/master/README.md"
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="/docker/couchdb"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/couch-alpine"
 LABEL org.opencontainers.image.title="CouchDB"
 LABEL org.opencontainers.image.authors="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL org.opencontainers.image.description="Jonathan Gao's personal CouchDB in alpine Linux, with his common dev envrionment."
